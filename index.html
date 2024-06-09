@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>weather project</title>
+  </head>
+  <body>
+    <div class="weather-application">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-form-city"
+          />
+          <input type="submit" value="search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-city">Windhoek</h1>
+            <p class="weather-details">
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="weather-temperature-cont">
+            <div class="weather-icon">🌧</div>
+            <div class="weather-temperature">14</div>
+            <div class="weather-unit">°C</div>
+          </div>
+        </div>
+      </main>
+
+      <footer>This project is coded by Victoria Shatiwa</footer>
+    </div>
+  </body>
+</html>
