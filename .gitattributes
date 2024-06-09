@@ -1,2 +1,26 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>The Weather</h1>
+    <form>
+      <input type="search" placeholder="Enter a city" required />
+      <input type="submit" value="search" />
+    </form>
+    <hr />
+    Windhoek
+    <p>
+      Saturday 15:32, moderate rain <br />
+      Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+    </p>
+    <div>🌧 14°C</div>
+    <div>
+      <footer>This project is coded by Victoria Shatiwa</footer>
+    </div>
+  </body>
+</html>
